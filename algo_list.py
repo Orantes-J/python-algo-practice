@@ -35,3 +35,21 @@ for i in a_list:
     new_list.append(new_num)
 
 print(new_list)
+
+# CONCATENATE TWO LIST IN SPECFIC ORDER ---  Two ways
+
+list1 = ['hello ', 'take ']
+list2 = ['dear', 'sir']
+
+new_list = [i+j for i in list1 for j in list2 ]        
+
+new_list1 = []
+for i in list1:
+    for j in list2:
+        word = i+j
+        new_list1.append(word)
+
+print(new_list1)
+
+
+print(new_words)
